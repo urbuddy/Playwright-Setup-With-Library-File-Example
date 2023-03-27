@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "HEADLESS_MODE": "HEADLESS=true node ./google.js",
+    "NON_HEADLESS_MODE": "HEADLESS=false node ./google.js"
+  },
+  "dependencies": {
+    "playwright": "^1.32.1"
+  }
+}
